@@ -77,4 +77,36 @@ With the above architecture after training the model for 30 epochs the output is
 
 ![Screenshot](imgs/cenc.png)<br>
 
+## Why Convolutional autoencoders ?
+
+* To demonstrate the advantage of the convolutional autoencoder we would define a parameter called the compression ratio (CR). It is defined as the ratio of the size of compressed image(flattened) to size of input image (flattened). 
+
+* Here in our metric the CR must be close to zero for max compression and a value close to 1 stands for poor compression. 
+
+#### Case 1: Linear autoencoder 
+
+* Here we consider our best linear autoencoder model with encoding depth of 256. 
+* The MNIST image is a 28x28 image. On flattening we get 784 values. 
+* Now we can find the CR for this model using the formula given below. 
+
+CR_linear = encoder_ouput_size / input_image_size = 256 / 784 = 0.3265
+
+* So the compression ratio for the linear autoencoder is about 0.33
+
+#### Case 2: Convolutional autoencoder
+
+* Input dimensions are 1x28x28. 
+*  1x28x28 -> Conv1 -> 64x26x26
+*  64x26x26 -> MaxPool -> 64x13x13
+*  64x13x13 -> Conv2 -> 8x11x11
+*  8x10x10 -> MaxPool -> 8x5x5
+
+Now the final encoder output size = 8x5x5 = 200
+
+* CR_conv = encoder_ouput_size / input_image_size = 200 / 784 = 0.2551
+
+### Observations
+
+The CR value for the convolutional autoencoder is better compared to the linear autoencoder. This demonstrates the efficiency of the convolutional autoencoder.
+
 
