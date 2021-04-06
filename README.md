@@ -33,5 +33,7 @@ These are very useful models that consist of an encocder and a decoder block. Th
 
 ![Screenshot](imgs/d_256.png)<br>
 
+## Conclusion
+
 
 
