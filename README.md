@@ -56,3 +56,7 @@ The linear autoencoders could get the job done but they are not really efficient
 * In this notebook we are using the MNIST dataset to compress the 28x28 images and decompress them back to the original image. The architecture of the model used in this project is described below. 
 
 ![Screenshot](imgs/Convenc.png)<br>
+
+* Here Tconv stands for transpose convolution or deconvolution. 
+
+* Both the input and output dimensions are 28x28. (MNIST images)
