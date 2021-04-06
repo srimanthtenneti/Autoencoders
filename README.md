@@ -60,3 +60,21 @@ The linear autoencoders could get the job done but they are not really efficient
 * Here Tconv stands for transpose convolution or deconvolution. 
 
 * Both the input and output dimensions are 28x28. (MNIST images)
+
+* The exact model architecture is described  below: 
+
+ConvAutoencoder( <br>
+  (conv1): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)) <br>
+  (conv2): Conv2d(64, 8, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)) <br>
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False) <br>
+  (t_conv1): ConvTranspose2d(8, 64, kernel_size=(2, 2), stride=(2, 2)) <br>
+  (t_conv2): ConvTranspose2d(64, 1, kernel_size=(2, 2), stride=(2, 2)) <br>
+) <br>
+
+### Results
+
+With the above architecture after training the model for 30 epochs the output is: 
+
+![Screenshot](imgs/cenc.png)<br>
+
+
