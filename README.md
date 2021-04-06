@@ -19,7 +19,7 @@ These are very useful models that consist of an encocder and a decoder block. Th
 
 * Considering an encoding depth of 32
 
-![Screenshot](imgs/d_32.png)<br>
+![Screenshot](imgs/d_32_f.png)<br>
 
 * Considering an encoding depth of 64
 
@@ -27,7 +27,7 @@ These are very useful models that consist of an encocder and a decoder block. Th
 
 * Considering an encoding depth of 128
 
-![Screenshot](imgs/d_128.png)<br>
+![Screenshot](imgs/d_128_f.png)<br>
 
 * Considering an encoding depth of 256
 
