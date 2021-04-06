@@ -6,6 +6,7 @@ These are very useful models that consist of an encocder and a decoder block. Th
 1. Linear Autoencoders
 2. Convolutional Autoencoders
 
+
 ## 1. Linear Autoencoders
 
 ### Model Architecture
@@ -109,4 +110,7 @@ Now the final encoder output size = 8x5x5 = 200
 
 The CR value for the convolutional autoencoder is better compared to the linear autoencoder. This demonstrates the efficiency of the convolutional autoencoder.
 
+## Conclusion
+
+The convolutional autoencoders are much more efficient compared to the linear autoencoders. 
 
