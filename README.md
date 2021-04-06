@@ -17,6 +17,9 @@ These are very useful models that consist of an encocder and a decoder block. Th
 
 ## Results
 
+### Note
+All these models are trained for 5 epochs. 
+
 * Considering an encoding depth of 32
 
 ![Screenshot](imgs/d_32_f.png)<br>
@@ -35,5 +38,5 @@ These are very useful models that consist of an encocder and a decoder block. Th
 
 ## Conclusion
 
-
+From the above results we can conclude that more the encoding depth better is the resolution of the reconstructed image. But we have to remember that more the encoding depth lesser is the compression. So, while building an autoencoder for image / audio compression we have to choose an optimial encoding depth for best compression and recovery. 
 
