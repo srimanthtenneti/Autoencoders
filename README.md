@@ -1,9 +1,11 @@
+## Autoencoders
+These are very useful models that consist of an encocder and a decoder block. The main applications of autoencoders are image compression and decompression, image de-noising, etc.
+
 ## Table of Contents
 
 1. Linear Autoencoders
 
-## Autoencoders
-These are very useful models that consist of an encocder and a decoder block. The main applications of autoencoders are image compression and decompression, image de-noising, etc.
+## 1. Linear Autoencoders
 
 ## Model Architecture
 
