@@ -82,7 +82,7 @@ With the above architecture after training the model for 30 epochs the output is
 
 * To demonstrate the advantage of the convolutional autoencoder we would define a parameter called the compression ratio (CR). It is defined as the ratio of the size of compressed image(flattened) to size of input image (flattened). 
 
-* Here in our metric the CR must be close to zero for max compression and a value close to 1 stands for poor compression. 
+* Here in our metric the CR must be close to 0 for max compression and a value close to 1 stands for poor compression. 
 
 #### Case 1: Linear autoencoder 
 
