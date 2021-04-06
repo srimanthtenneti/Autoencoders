@@ -54,3 +54,5 @@ The linear autoencoders could get the job done but they are not really efficient
 * The basic architecture of a Autoencoder is described by the diagram above. 
 
 * In this notebook we are using the MNIST dataset to compress the 28x28 images and decompress them back to the original image. The architecture of the model used in this project is described below. 
+
+![Screenshot](imgs/Convenc.png)<br>
